@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Runandgrab</string>
+    <string name="app_name">Run and Grab</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_having_account">Already Having an Account?</string>
+    <string name="log_in">Log In</string>
+    <string name="not_having_account">Not Having an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_dashboard">Run and Grab</string>
+    <string name="title_activity_all_products">AllProductsActivity</string>
+    <string name="title_activity_new_product">NewProductActivity</string>
+    <string name="title_activity_edit_event">EditEventActivity</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
