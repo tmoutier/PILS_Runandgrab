@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#304769"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:padding="50dp">
+
+    <!-- City Label -->
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Ville de l'event"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:paddingTop="10dip"
+              android:textSize="17dip"
+              android:textColor="@android:color/white"/>
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputville"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dip"
+              android:layout_marginBottom="15dip"
+              android:singleLine="true"
+              android:textColor="@android:color/white"/>
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Lieu de l'event"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:paddingTop="10dip"
+              android:textSize="17dip"
+              android:textColor="@android:color/white"/>
+
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputlieu"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dip"
+              android:layout_marginBottom="15dip"
+              android:singleLine="true"
+              android:textColor="@android:color/white"/>
+
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Date"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:paddingTop="10dip"
+              android:textSize="17dip"
+              android:textColor="@android:color/white"/>
+
+    <!-- Input Price -->
+    <EditText android:id="@+id/inputdate"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dip"
+              android:layout_marginBottom="15dip"
+              android:singleLine="true"
+              android:inputType="date"
+              android:textColor="@android:color/white"/>
+
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Heure"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:paddingTop="10dip"
+              android:textSize="17dip"
+              android:textColor="@android:color/white"/>
+
+    <!-- Input description -->
+    <EditText android:id="@+id/inputheure"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dip"
+              android:layout_marginBottom="15dip"
+              android:singleLine="true"
+              android:inputType="time"
+              android:gravity="top"
+              android:textColor="@android:color/white"/>
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Commentaires sur l'évent"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:paddingTop="10dip"
+              android:textSize="17dip"
+              android:textColor="@android:color/white"/>
+
+    <EditText android:id="@+id/inputcomm"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dip"
+              android:layout_marginBottom="15dip"
+              android:lines="4"
+              android:gravity="top"
+              android:textColor="@android:color/white"/>
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnCreateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:text="Créer l'évent"
+            android:textColor="@android:color/white" />
+
+</LinearLayout>

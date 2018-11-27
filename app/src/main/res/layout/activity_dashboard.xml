@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#304769"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:padding="50dp">
+
+
+    <Button android:id="@+id/btnViewMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:text="Afficher la map"
+            android:textColor="@android:color/white" />
+    <!--  Button to view all products screen -->
+    <Button android:id="@+id/btnViewProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:text="Voir les events"
+            android:textColor="@android:color/white" />
+
+    <!--  Button to create a new product screen -->
+    <Button android:id="@+id/btnCreateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:text="Créer un event"
+            android:textColor="@android:color/white" />
+
+    <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f12594"
+            android:text="@string/logout"
+            android:textColor="@android:color/white" />
+
+</LinearLayout>

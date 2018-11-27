@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#304769"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:padding="50dp">
+    <!-- Main ListView
+         Always give id value as list(@android:id/list)
+    -->
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btninscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:visibility="invisible"
+            android:text="Je participe"
+            android:textColor="@android:color/white"/>
+
+    <Button android:id="@+id/btncalendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#f05924"
+            android:visibility="invisible"
+            android:text="Ajouter l'event à mon calendrier"
+            android:textColor="@android:color/white"/>
+
+</LinearLayout>
